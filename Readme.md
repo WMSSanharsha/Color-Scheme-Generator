@@ -4,6 +4,8 @@
 
 The Color Scheme Generator is a simple web application that allows users to generate a color scheme based on their selected base color. Users can choose a color using the color input or select a predefined color from a dropdown menu. The application fetches complementary colors from The Color API and displays them in a visually appealing grid format.
 
+![Screenshot 2024-10-19 171726](https://github.com/user-attachments/assets/ea24d087-85e1-4332-a2b0-651d4bb82c9d)
+
 ## Features
 
 - Color selection via a color picker or a dropdown menu.
