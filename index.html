@@ -3,27 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Color Scheme Generator</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="color" />
-        <button>Get Color Scheme</button>
-      </form>
-    </header>
     <main>
-      <div id="color1"></div>
-      <p>#000000</p>
-      <div id="color2"></div>
-      <p>#000000</p>
-      <div id="color3"></div>
-      <p>#000000</p>
-      <div id="color4"></div>
-      <p>#000000</p>
-      <div id="color5"></div>
-      <p>#000000</p>
+      <header>
+        <form id="form">
+          <input type="color" />
+          <select id="color-select">
+            <option value="#FF0000">Red</option>
+            <option value="#0000FF">Blue</option>
+            <option value="#008000">Green</option>
+            <option value="#FFFF00">Yellow</option>
+            <option value="#FFA500">Orange</option>
+          </select>
+          <button id="submit-btn">Get Color Scheme</button>
+        </form>
+      </header>
+      <div id="color-divs">
+        <div id="color1"></div>
+
+        <div id="color2"></div>
+
+        <div id="color3"></div>
+
+        <div id="color4"></div>
+
+        <div id="color5"></div>
+      </div>
     </main>
     <script src="script.js"></script>
   </body>
